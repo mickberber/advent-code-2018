@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-function fileReducer(err, data) {
+function fileReader(err, data) {
   var dataArray = data.split('\n');
 
   var frequency = dataArray.reduce(function(acc, val, index) {
@@ -13,4 +13,4 @@ function fileReducer(err, data) {
   console.log(frequency);
 }
 
-fs.readFile('day1.txt', 'utf8', fileReducer);
+fs.readFile('day1.txt', 'utf8', fileReader);
