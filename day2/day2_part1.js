@@ -21,7 +21,7 @@ function countIncrementer(countLib) {
 
     if (!multiplesOfThreeCounted && countLib[key] === 3) {
       multiplesOfThree++;
-      multiplesOfThreeCounted = 3;
+      multiplesOfThreeCounted = true;
     }
   }
 };

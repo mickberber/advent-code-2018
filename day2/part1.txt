@@ -27,5 +27,6 @@ What is the checksum for your list of box IDs?
 
 To begin, get your puzzle input.
 
-Answer:
- 
+Your puzzle answer was 5390.
+
+The first half of this puzzle is complete! It provides one gold star: *
